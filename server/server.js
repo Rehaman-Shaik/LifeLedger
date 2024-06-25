@@ -1,19 +1,19 @@
 import cors from "cors"
 import bodyParser from "body-parser";
 import express from "express";
-import getAllUsers from "./models/users.js";
-import financeRouter from "./routes/finance.js";
+import getAllUsers from "./models/usersModel.js";
+import financeRouter from "./routes/financeRoute.js";
 
 const app = express();
 const port = 3000;
 
 //routes
 app.use("/", financeRouter)
+// app.use("/main", router)
 
 
 app.use(cors());
 app.use(bodyParser.json());
-// app.use("/main", router)
 
 
 app.listen(port, () => {

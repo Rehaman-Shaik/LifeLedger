@@ -1,0 +1,59 @@
+body {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 10px;
+    color: #8884FF;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlogo {
+    text-align: justify;
+}
+
+.navitems {
+    display: flex;
+    justify-content: center;
+}
+
+.navitems li {
+    color: #8884FF;
+    list-style: none;
+    margin-right: 30px;
+}
+
+a:visited {
+    color: #8884FF;
+}
+
+.navitems li:hover {
+    background-color: black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+ul li {
+    display: inline;
+}
+
+.navitems button {
+    /* background-color: #8884FF; */
+    /* color: white; */
+    border-radius: 5px;
+    height: 38px;
+    width: 57px;
+    margin-right: 25px;
+}
+
+/* 60 white  30 black 10 #8884FF */
